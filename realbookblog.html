@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        .container {
+            padding: 64px;
+        }
+        
+        .row:after {
+            content: "";
+            display: table;
+            clear: both
+        }
+        
+        .column-66 {
+            float: left;
+            width: 66.66666%;
+            padding: 20px;
+        }
+        
+        .column-33 {
+            float: left;
+            width: 33.33333%;
+            padding: 20px;
+        }
+        
+        .large-font {
+            font-size: 48px;
+        }
+        
+        .xlarge-font {
+            font-size: 64px
+        }
+        
+        .button {
+            border: none;
+            color: white;
+            padding: 14px 28px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #4CAF50;
+        }
+        
+        img {
+            display: block;
+            height: auto;
+            max-width: 100%;
+        }
+        
+        @media screen and (max-width: 1000px) {
+            .column-66,
+            .column-33 {
+                width: 100%;
+                text-align: center;
+            }
+            img {
+                margin: auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div style="text-align:center">
+        <h2>different medium of books</h2>
+        <p>american vs japenese </p>
+    </div>
+
+    <!-- The App Section -->
+    <div class="container">
+        <div class="row">
+            <div class="column-66">
+                <h1 class="xlarge-font"><b>AMERICAN novel</b></h1>
+                <h1 class="large-font" style="color:MediumSeaGreen;"><b>difference:</b></h1>
+                <p><span style="font-size:36px">you read from left to right</span> A novel is a relatively long work of narrative fiction, normally written in prose form, and which is typically published as a book. The present English word for a long work
+                    of prose fiction derives from the Italian novella for "new", "news", or "short story of something new", itself from the Latin novella, a singular noun use of the neuter plural of novellus, diminutive of novus, meaning "new". Walter
+                    Scott made a distinction between the novel, in which (as he saw it) "events are accommodated to the ordinary train of human events and the modern state of society</p>
+                <button class="button">read the most popular.</button>
+            </div>
+            <div class="column-33">
+                <img src="lord of the rings.jpg" width="335" height="471">
+            </div>
+        </div>
+    </div>
+
+    <!-- Clarity Section -->
+    <div class="container" style="background-color:#f1f1f1">
+        <div class="row">
+            <div class="column-33">
+                <img src="onepiece.jpg" alt="App" width="335" height="471">
+            </div>
+            <div class="column-66">
+                <h1 class="xlarge-font"><b>JAPANESE BOOKS</b></h1>
+                <h1 class="large-font" style="color:red;"><b>difference:</b></h1>
+                <p><span style="font-size:24px">you read from right to left.</span> Manga (漫画, manga) are comics or graphic novels created in Japan or using the Japanese language and conforming to a style developed in Japan in the late 19th century.[1] They
+                    have a long and complex pre-history in earlier Japanese art. The term manga (kanji: 漫画; hiragana: まんが; katakana: マンガ; About this soundlisten (help·info); English: /ˈmæŋɡə/ or /ˈmɑːŋɡə/) in Japan is used to refer to both comics and
+                    cartooning. Outside Japan, the word is used to refer to comics originally published in Japan. In Japan, people of all ages read manga. The medium includes works in a broad range of genres: action, adventure, business and commerce,
+                    comedy, detective, drama, historical, horror, mystery, romance, science fiction and fantasy, sports and games, and suspense, among others</p>
+                <button class="button" style="background-color:red">Read the most popular</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- The App Section -->
+    <div class="container">
+        <div class="row">
+            <div class="column-66">
+                <h1 class="xlarge-font"><b>regognition</b></h1>
+                <h1 class="large-font" style="color:MediumSeaGreen;"><b>both mediums are used wordwide.</b></h1>
+                <p><span style="font-size:36px">novels beat the both in popularity</span> According to Guinness World Records as of 1995, the Bible is the best-selling book of all time, with an estimated 5 billion copies sold and distributed. The Quotations
+                    from Chairman Mao Tse-tung, also known as the Little Red Book, has produced a wide array of sales and distribution figures — with estimates ranging from 800 million to over 6.5 billion printed volumes, with some claiming the distribution
+                    ran into the "billions" and some citing "over a billion" official volumes between 1966 and 1969 alone as well as "untold numbers of unofficial local reprints and unofficial translations." Exact print figures for these and other books
+                    may also be missing or unreliable since these kinds of books may be produced by many different and unrelated publishers, in some cases over many centuries. All books of a religious, ideological, philosophical or political nature have
+                    thus been excluded from the below lists of best-selling books for these reasons.</p>
+                <button class="button">see the most selling</button>
+            </div>
+            <div class="column-33">
+                <img src="holy-bible-cover.jpg" width="335" height="471">
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
